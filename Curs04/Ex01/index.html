@@ -12,6 +12,7 @@
     td,
     th {
       border: 1px solid #000;
+      border-collapse: collapse;
     }
   </style>
 
@@ -22,7 +23,150 @@
 </head>
 
 <body>
-
+  <table>
+    <caption>Tabel</caption>
+    <thead>
+      <tr>
+        <th>Nr.ctr</th>
+        <th>Elementul</th>
+        <th>Detalii</th>
+        <th>Sintaxa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Tabelele HTML</td>
+        <td>
+          <ul>
+            <li>
+              Tabelele HTML sunt o modalitate de a prezenta informatii in structura tabelara de randuri si coloane
+            </li>
+            <li>Elemente esentiale ale tabelelor sunt table, tr si td</li>
+            <li>https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics</li>
+          </ul>
+        </td>
+        <td>
+          <.table><br>
+            <.caption>
+              <. /caption><br>
+                <.thead><br>
+                  <.tr><br>
+                    <.th>
+                      <. /th><br>
+                        <. /tr><br>
+                          <. /thead><br>
+                            <.tbody><br>
+                              <.tr><br>
+                                <.td>
+                                  <. /td><br>
+                                    <. /tr><br>
+                                      <. /tbody><br>
+                                        <.tfoot><br>
+                                          <.tr><br>
+                                            <.th>
+                                              <. /th><br>
+                                                <. /tr><br>
+                                                  <. /tfoot><br>
+                                                    <. /table><br>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Elementul table</td>
+        <td>
+          <ul>
+            <li>Elementul table este un element de tip block, semantic care marcheaza informatia tabelara</li>
+            <li>Elementul table poate contine exclusiv elemente de tip tr sau tbody</li>
+            <li>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table</li>
+          </ul>
+        </td>
+        <td>
+          <.table><br>
+            <.tr><br>
+              <.td>Nume<. /td><br>
+                  <.td>Exemple<. /td><br>
+                      <.td>Detalii<. /td><br>
+            </.tr><br>
+            <.tr><br>
+              <.td>value1<. /td><br>
+                  <.td>value2<. /td><br>
+                      <.td>Atributul decide valoarea care va fi selectata<. /td><br>
+                          <. /tr><br>
+                            <. /table><br>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Elementul tr</td>
+        <td>
+          <ul>
+            <li>Elementul tr (table row) este unitatea de rand ce compune un tabel</li>
+            <li>Acest element poate contine doar elemente td sau th</li>
+            <li>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr</li>
+          </ul>
+        </td>
+        <td>
+          <.table><br>
+            <.tr><br>
+              <.td>Nume<. /td><br>
+                  <.td>Exemple<. /td><br>
+                      <.td>Detalii<. /td><br>
+                          <. /tr><br>
+                            <.tr><br>
+                              <.td>value1<. /td><br>
+                                  <.td>value2<. /td><br>
+                                      <.td>Atributul decide valoarea care va fi selectata<. /td><br>
+                                          <. /tr><br>
+                                            <. /table><br>
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Elementul td</td>
+        <td>
+          <ul>
+            <li>Elementul td este unitatea primara a tabelelor HTML reprezentand celula de baza</li>
+            <li>Elementul td poate contine orice element, inclusiv alte tabele</li>
+            <li>Poate fi interschimbat cu th </li>
+          </ul>
+        </td>
+        <td>
+          <.table><br>
+            <.tr><br>
+              <.td>Nume<. /td><br>
+                  <.td>Exemple<. /td><br>
+                      <.td>Detalii<. /td><br>
+                          <. /tr><br>
+                            <.tr><br>
+                              <.td>value1<. /td><br>
+                                  <.td>value2<. /td><br>
+                                      <.td>Atributul decide valoarea care va fi selectata<. /td><br>
+                                          <. /tr><br>
+                                            <. /table><br>
+        </td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Elementul th</td>
+        <td>
+          <ul>
+            <li>Elementul th (table header cell) poate inlocui td atunci cand se marcheaza capetele de tabel</li>
+            <li>Se aplica regulile de la elementul td</li>
+            <li>Pot fi mai multe capete de tabel intr-un element de tip table</li>
+            <li>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th</li>
+          </ul>
+        </td>
+        <td>
+          <.thead><br>
+            <.tr><br>
+              <.th>Exemplu<. /th><br>
+                  <. /tr><br>
+                    <. /thead><br>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <div
     class="pixeltab-host"
