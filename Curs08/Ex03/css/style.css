@@ -16,7 +16,7 @@
   padding-right: 21px;
 }
 .container {
-  width: 100px;
+  width: 100%;
   border: 3px solid green;
   padding: 15px;
 }
@@ -25,7 +25,6 @@
   width: 500px;
   height: 220px;
   border: 1px solid black;
-  text-align: center;
   padding: 13px 19px;
   margin: 0 auto;
 }
