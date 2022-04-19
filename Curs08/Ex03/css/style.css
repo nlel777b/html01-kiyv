@@ -5,6 +5,7 @@
   border: 1px solid green;
   margin: 0 auto;
 }
+
 .blue {
   width: 150px;
   height: 300px;
@@ -15,11 +16,13 @@
   padding-left: 13px;
   padding-right: 21px;
 }
+
 .container {
   width: 100%;
   border: 3px solid green;
   padding: 15px;
 }
+
 .green {
   background-color: green;
   width: 500px;
@@ -28,6 +31,7 @@
   padding: 13px 19px;
   margin: 0 auto;
 }
+
 .purple {
   background-color: purple;
   border: 2px solid green;
@@ -38,12 +42,14 @@
   padding-bottom: 0;
   padding-right: 15px;
 }
+
 .turquoise {
   background-color: turquoise;
   border: 1px solid blue;
   border-radius: 15px;
   padding: 11px 20px;
 }
+
 .transparent {
   width: 300px;
   border: 2px solid red;
@@ -52,5 +58,4 @@
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-
 }
